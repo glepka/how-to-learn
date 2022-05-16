@@ -23,21 +23,13 @@
   bottom: 0px;
 }
 
-.margin_bottom-and-top-100px {
+.margin-bottom_100px {
   margin-bottom: 100px;
-  margin-top: 100px;
+  
 }
 
-.margin-bottom-20px {
+.margin-bottom_20px {
   margin-bottom: 20px;
-}
-
-.margin-null {
-  margin: 0;
-}
-
-.background-color_grey {
-  background-color: #f2f2f2;
 }
 
 .header {
@@ -48,7 +40,7 @@
   position: relative;
   width: 100%;
   align-items: center;
-
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -135,6 +127,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -146,6 +139,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0%;
 }
 
 .two-columns__paragraph_margin-top-and-bottom-30px {
@@ -192,9 +186,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-bottom: 100px;
-
-}
+  }
 
 .table__line {
   width: 1100px;
@@ -202,13 +194,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 60px;
+  
 }
 
 .table__cell {
   width: 250px;
   vertical-align: top;
   margin: 0;
+  
+  margin-top: 60px;
 }
 
 .table__cell__heading {
@@ -278,10 +272,177 @@
   color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title_theme_dark{
+  color: #ffffff;
+  margin-top: 90px;
+  z-index: 2;
+}
+
+.section-subtitle_theme_dark{
+  color: #ffffff;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.table_theme_dark{
+  
+  z-index: 2;
+}
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
+
+.table__cell__heading_theme_dark{
+  color: #ffffff
+}
+
+.table__cell__text_theme_dark{
+  color: #ffffff
+}
+
+.kaufman__triangle{
+  width: 877px;
+  height: 877px;
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  background-image: url(/images/kaufman-triangle.svg);
+  background-size:cover;
+  z-index: 0;
+  
+}
+
+.footer{
+  background-color: #1f1f1f;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__columns{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+    position: relative;
+}
+
+.footer__columns_margin-top-and-bottom{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__columns_content_copyright{
+  border: 1px solid green;
+  flex-basis: 711px;
+  position: relative;
+}
+
+.logo_place_footer{
+  background-image: url(/images/logo_place_footer.svg);
+}
+
+.footer__author{
+line-height: 25px;
+font-size: 18px;
+font-weight: normal;
+color: #fff;
+}
+
+.footer__author_footer_position{
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+  margin-top: 18px;
+}
+
+.footer__columns_content_info{
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__columns_content_social{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid yellow;
+}
+
+.footer__column-heading{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 0;
+}
+
+.footer__column-heading_margin-bottom_20px{
+  margin-bottom: 20px;
+
+}
+
+.footer__column-links{
+  list-style-type:none;
+  padding-inline-start: 0px;
+  margin: 0;
+}
+
+.footer__column-links_margin{
+  margin: 0 0 16px;
+}
+
+
+.footer__columns_content_social{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+.footer__column-link{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+  .footer__column-link_logo{
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer__column-link_logo_facebook{
+  background-image: url(/images/facebook_color_white.svg);
+ 
+}
+
+.footer__column-link_logo_vk{
+  background-image: url(/images/vk_color_white.svg);
+  
+}
+
+.footer__column-link_logo_instagram{
+  background-image: url(/images/instagram_color_white.svg);
+  
+}
+
+/* и элемента с модификатором вида ключ-значение */
