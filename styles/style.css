@@ -76,6 +76,7 @@
   position: absolute;
   right: 0px;
   bottom: 0px;
+  object-fit: cover;
 }
 
 .header__square-pic {
@@ -356,7 +357,7 @@
 }
 
 
-.footer__columns_content_social {
+.footer__column_content_social {
   justify-content: flex-start;
 }
 
@@ -376,6 +377,8 @@
   height: 16px;
   width: 16px;
   margin-right: 10px;
+  background: no-repeat;
+  background-position: center;
 }
 
 .footer__social-icon_logo_facebook {
