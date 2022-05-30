@@ -10,6 +10,7 @@
   opacity: 1;
   transition: opasity 2s linear;
 }
+
 .feynman__link:hover {
   opacity: 0.5;
 }
