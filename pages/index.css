@@ -1,5 +1,7 @@
+/* Normalize */
 @import url(../vendor/normalize.css);  
 
+/* Страницы */
 @import url(../blocks/page/page.css);
 
 /* Логотип */
