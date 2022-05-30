@@ -4,4 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: opasity 2s linear;
+    height:fit-content;
+}
+
+.resources__link:hover{
+  opacity: 0.5;
 }

@@ -4,4 +4,11 @@
     font-weight: normal;
     color: #2f80ed;
     text-decoration: none;
+    opacity: 1;
+    transition: opasity 2s linear;
+  }
+
+  
+  .header__link:hover{
+      opacity: 0.5;
   }
