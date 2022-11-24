@@ -1,5 +1,5 @@
 /* Normalize */
-@import url(../vendor/normalize.css);  
+@import url(../vendor/normalize.css);
 
 /* Страницы */
 @import url(../blocks/page/page.css);
@@ -16,7 +16,6 @@
 /* Section-subtitle */
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
-
 
 /* Header */
 @import url(../blocks/header/header.css);
@@ -35,7 +34,6 @@
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 
-
 /* Video */
 
 @import url(../blocks/video/video.css);
@@ -45,7 +43,6 @@
 /* Oakley */
 
 @import url(../blocks/oakley/oakley.css);
-
 
 /* Description */
 @import url(../blocks/description/description.css);
@@ -66,7 +63,6 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
 
-
 /* Table */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
@@ -76,7 +72,6 @@
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-
 
 /* Khan */
 
@@ -101,7 +96,6 @@
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 
-
 /* Footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
@@ -118,7 +112,5 @@
 @import url(../blocks/footer/__social-icon/_logo/footer__social-icon_logo_instagram.css);
 @import url(../blocks/footer/__social-icon/_logo/footer__social-icon_logo_vk.css);
 
-
 /* Rotation */
 @import url(../blocks/rotation/rotation.css);
-
